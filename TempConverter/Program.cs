@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TempConv
+﻿namespace TempConv
 {
     class Program
     {
@@ -10,13 +8,13 @@ namespace TempConv
             double celsius;
             string input;
 
-            Console.WriteLine("Temperature in F:");
-            input = Console.ReadLine();
+            System.Console.WriteLine("Temperature in F:");
+            input = System.Console.ReadLine();
             fahrenheit = double.Parse(input);
 
             celsius = (fahrenheit - 32) * 5 / 9;
-            Console.WriteLine("The Temperature in C is: " + celsius);
-            Console.ReadLine();
+            System.Console.WriteLine("The Temperature in C is: " + celsius);
+            System.Console.ReadLine();
         }
     }
 }

@@ -12,6 +12,10 @@
             {
                 return "Bonjour le monde";
             }
+            else if (lang.Equals("nl"))
+            {
+                return "Hallo Wereld";
+            }
             else
             {
                 return "Hello World";
